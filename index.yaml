@@ -1,0 +1,367 @@
+apiVersion: v1
+entries:
+  kubero:
+  - apiVersion: v2
+    appVersion: v3
+    created: "2026-05-28T15:15:11.888415745Z"
+    description: A Helm chart for Kubero Master UI
+    digest: 06d78c133b44a5adc0a414874d7b78b07a75e4cff2aa0d0a4b4181fab9f21b13
+    name: kubero
+    type: application
+    urls:
+    - https://zubkovWork.github.io/kubero-operator/kubero-0.1.0.tgz
+    version: 0.1.0
+  kuberoaddonmemcached:
+  - apiVersion: v2
+    appVersion: 3.1.0
+    created: "2026-05-28T15:15:11.889866131Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/cloudpirates
+      version: 1.x.x
+    - name: memcached
+      repository: oci://registry-1.docker.io/cloudpirates
+      version: 0.0.x
+    description: A Helm chart for Kuberos Memcached addon
+    digest: e5d4e96ec18d48d9429053c277953adcd330d2bf44bacbee58742408e744d991
+    name: kuberoaddonmemcached
+    type: application
+    urls:
+    - https://zubkovWork.github.io/kubero-operator/kuberoaddonmemcached-0.1.0.tgz
+    version: 0.1.0
+  kuberoaddonmongodb:
+  - apiVersion: v2
+    appVersion: 3.1.0
+    created: "2026-05-28T15:15:11.891117787Z"
+    dependencies:
+    - name: mongodb
+      repository: https://groundhog2k.github.io/helm-charts/
+      version: 0.x.x
+    description: A Helm chart for Kuberos MongoDB addon
+    digest: cb8c0a07bf0358ca8bce264b01f29be445348d3226bcfa47053c78c50b5f768e
+    name: kuberoaddonmongodb
+    type: application
+    urls:
+    - https://zubkovWork.github.io/kubero-operator/kuberoaddonmongodb-0.1.0.tgz
+    version: 0.1.0
+  kuberoaddonmysql:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2026-05-28T15:15:11.892040672Z"
+    dependencies:
+    - name: mysql
+      repository: https://groundhog2k.github.io/helm-charts/
+      version: 3.x.x
+    description: A Helm chart for Kuberos Mysql
+    digest: e9401dd60e3525862243bf11f63177abb44db5c63ec192388ca656ff1da59529
+    name: kuberoaddonmysql
+    type: application
+    urls:
+    - https://zubkovWork.github.io/kubero-operator/kuberoaddonmysql-0.1.0.tgz
+    version: 0.1.0
+  kuberoaddonpostgres:
+  - apiVersion: v2
+    appVersion: 3.1.0
+    created: "2026-05-28T15:15:11.894607607Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/cloudpirates
+      version: 1.x.x
+    - name: postgres
+      repository: oci://registry-1.docker.io/cloudpirates
+      version: 0.2.x
+    description: A Helm chart for Kuberos PostgreSQL addon
+    digest: b2114b6b3339b6d2837b344cec5996dc98b08610d2e45bd5ec73d2c02bd3b1b4
+    name: kuberoaddonpostgres
+    type: application
+    urls:
+    - https://zubkovWork.github.io/kubero-operator/kuberoaddonpostgres-0.1.0.tgz
+    version: 0.1.0
+  kuberoaddonrabbitmq:
+  - apiVersion: v2
+    appVersion: 3.1.0
+    created: "2026-05-28T15:15:11.896030492Z"
+    dependencies:
+    - name: rabbitmq
+      repository: https://groundhog2k.github.io/helm-charts/
+      version: 2.x.x
+    description: A Helm chart for Kuberos RabbitMQ addon
+    digest: d4335e59ad4e93d1df04150802e5e3da114fc81a6be5073123f4d0d9f5600736
+    name: kuberoaddonrabbitmq
+    type: application
+    urls:
+    - https://zubkovWork.github.io/kubero-operator/kuberoaddonrabbitmq-0.1.0.tgz
+    version: 0.1.0
+  kuberoaddonredis:
+  - apiVersion: v2
+    appVersion: 3.1.0
+    created: "2026-05-28T15:15:11.897369803Z"
+    dependencies:
+    - name: redis
+      repository: https://groundhog2k.github.io/helm-charts/
+      version: 2.x.x
+    description: A Helm chart for Kuberos Redis addon
+    digest: 8ba3b57e27b152a24bfea098924abf1737d40eefaaa0497ec5601d8dee45fab5
+    name: kuberoaddonredis
+    type: application
+    urls:
+    - https://zubkovWork.github.io/kubero-operator/kuberoaddonredis-0.1.0.tgz
+    version: 0.1.0
+  kuberoapp:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2026-05-28T15:15:11.898091119Z"
+    description: A Helm chart for Kubero Apps
+    digest: 5a454a1549bb27c8b2865b8d0d97cbae7c0501d26f5ad39bad8d99c27668affc
+    name: kuberoapp
+    type: application
+    urls:
+    - https://zubkovWork.github.io/kubero-operator/kuberoapp-0.1.0.tgz
+    version: 0.1.0
+  kuberobuild:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2026-05-28T15:15:11.898357727Z"
+    description: A Helm chart for Kubernetes
+    digest: 5d1ed843343162e5f7f71af741b5ec6bf602459166700224f85e0e7d95a85a35
+    name: kuberobuild
+    type: application
+    urls:
+    - https://zubkovWork.github.io/kubero-operator/kuberobuild-0.1.0.tgz
+    version: 0.1.0
+  kuberoelasticsearch:
+  - apiVersion: v2
+    appVersion: 6.0.3
+    created: "2026-05-28T15:15:11.90872515Z"
+    dependencies:
+    - name: elasticsearch
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-elasticsearch
+      version: 19.x.x
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Elasticsearch is a distributed search and analytics engine. It is
+      used for web search, log monitoring, and real-time analytics. Ideal for Big
+      Data applications.
+    digest: 234982cdc28bd120475159fe6b601bf5d09929c18e941e0fbfbb78e1292c6031
+    home: https://github.com/bitnami/charts/tree/main/bitnami/elasticsearch
+    name: kuberoelasticsearch
+    type: application
+    urls:
+    - https://zubkovWork.github.io/kubero-operator/kuberoelasticsearch-0.1.0.tgz
+    version: 0.1.0
+  kuberokafka:
+  - apiVersion: v2
+    appVersion: 3.3.1
+    created: "2026-05-28T15:15:11.91686767Z"
+    dependencies:
+    - name: kafka
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-kafka
+      version: 20.x.x
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: A Helm chart for Kuberos Kafka
+    digest: adc2679299623f35791eb0148b6c0d683ad29c936494fa996ac21f1932fa5989
+    name: kuberokafka
+    type: application
+    urls:
+    - https://zubkovWork.github.io/kubero-operator/kuberokafka-0.1.0.tgz
+    version: 0.1.0
+  kuberomail:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2026-05-28T15:15:11.917381583Z"
+    dependencies:
+    - name: haraka
+      repository: https://haraka.kubero.dev/
+      tags:
+      - haraka
+      version: 0.x.x
+    description: A Helm chart for Haraka MTA
+    digest: 5b2146ed240862ab05da639976d7316176f0e862c9f3463667d2aeeec8701e1f
+    name: kuberomail
+    type: application
+    urls:
+    - https://zubkovWork.github.io/kubero-operator/kuberomail-0.1.0.tgz
+    version: 0.1.0
+  kuberomemcached:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2026-05-28T15:15:11.920696074Z"
+    dependencies:
+    - name: memcached
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-memcached
+      version: 6.x.x
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: A Helm chart for Kubernetes
+    digest: ed3fa567e599892159b9adab86c06fd9d544a411401d1dc00e51cead679d3c5e
+    name: kuberomemcached
+    type: application
+    urls:
+    - https://zubkovWork.github.io/kubero-operator/kuberomemcached-0.1.0.tgz
+    version: 0.1.0
+  kuberomongodb:
+  - apiVersion: v2
+    appVersion: 6.0.3
+    created: "2026-05-28T15:15:11.927305029Z"
+    dependencies:
+    - name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-mongodb
+      version: 13.x.x
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: A Helm chart for Kuberos Postgresql
+    digest: 7cba1f61874e459c24a158c485ef051cc392308b18db1b522134f69969405235
+    name: kuberomongodb
+    type: application
+    urls:
+    - https://zubkovWork.github.io/kubero-operator/kuberomongodb-0.1.0.tgz
+    version: 0.1.0
+  kuberomysql:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2026-05-28T15:15:11.931701706Z"
+    dependencies:
+    - name: mysql
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-mysql
+      version: 9.x.x
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: A Helm chart for Kuberos Mysql
+    digest: 7a81b7bb2e4c843847ddf41eb6510c60427a6a205de1d5201617b7d5b64bd882
+    name: kuberomysql
+    type: application
+    urls:
+    - https://zubkovWork.github.io/kubero-operator/kuberomysql-0.1.0.tgz
+    version: 0.1.0
+  kuberopipeline:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2026-05-28T15:15:11.932393404Z"
+    description: A Helm chart for Kubernetes
+    digest: b71d7c85613781878390f38e7c25d66bbd2df3dd83d79edef3cbd23f622c664d
+    name: kuberopipeline
+    type: application
+    urls:
+    - https://zubkovWork.github.io/kubero-operator/kuberopipeline-0.1.0.tgz
+    version: 0.1.0
+  kuberopostgresql:
+  - apiVersion: v2
+    appVersion: 15.1.0
+    created: "2026-05-28T15:15:11.937411805Z"
+    dependencies:
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-postgresql
+      version: 12.x.x
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: A Helm chart for Kuberos Postgresql
+    digest: 34b43f12bd3725dae37eb336fe451f38eb90c6789f0457822627b8792134362a
+    name: kuberopostgresql
+    type: application
+    urls:
+    - https://zubkovWork.github.io/kubero-operator/kuberopostgresql-0.1.0.tgz
+    version: 0.1.0
+  kuberoprometheus:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2026-05-28T15:15:11.94916726Z"
+    dependencies:
+    - condition: prometheus.server.enabled
+      name: prometheus
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 25.20.*
+    - condition: prometheus.alertmanager.enabled
+      name: alertmanager
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 1.10.*
+    - condition: prometheus.kube-state-metrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 5.18.*
+    - condition: prometheus.prometheus-node-exporter.enabled
+      name: prometheus-node-exporter
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.32.*
+    description: A Helm chart for Kubernetes
+    digest: 959a860904d162f91112a503bb9aaa096cdff6512e2606b163e7cd97fb573029
+    name: kuberoprometheus
+    type: application
+    urls:
+    - https://zubkovWork.github.io/kubero-operator/kuberoprometheus-0.1.0.tgz
+    version: 0.1.0
+  kuberorabbitmq:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-05-28T15:15:11.953508066Z"
+    dependencies:
+    - name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-rabbitmq
+      version: 12.x.x
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: A Helm chart for Kuberos RabbitMQ
+    digest: 68b940a07526b2de83e1c9a00dea365c6ed38a90e6f49cb08172ed811a7707b5
+    name: kuberorabbitmq
+    type: application
+    urls:
+    - https://zubkovWork.github.io/kubero-operator/kuberorabbitmq-0.1.0.tgz
+    version: 0.1.0
+  kuberoredis:
+  - apiVersion: v2
+    appVersion: 7.0.7
+    created: "2026-05-28T15:15:11.959693094Z"
+    dependencies:
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-redis
+      version: 17.x.x
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: A Helm chart for Kuberos Redis
+    digest: baeb3ce73e53ac54a4450bf83499ddf3d07b9c448d4d749b5dd9f159f0544e53
+    name: kuberoredis
+    type: application
+    urls:
+    - https://zubkovWork.github.io/kubero-operator/kuberoredis-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-05-28T15:15:11.887176635Z"
